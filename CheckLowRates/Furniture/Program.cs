@@ -11,17 +11,17 @@ namespace Furniture
         {
             String Input;
 
-               Console.Write("Please select a table of your choice (enter P, O, or M): ");
-               Input = Console.ReadLine();
+            Console.Write("Please select a table of your choice (enter P, O, or M): ");
+            Input = Console.ReadLine();
 
 
-               if (Input == "P")
-                   Console.WriteLine(" Your cost is $100");
-               else if (Input == "O")
-                   Console.WriteLine("Your cost is $225");
+            if (Input == "P")
+                Console.WriteLine(" Your cost is $100");
+            else if (Input == "O")
+                Console.WriteLine("Your cost is $225");
 
 
-                  
-        F}
+
+        }
     }
 }
