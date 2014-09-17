@@ -19,7 +19,8 @@ namespace Furniture
                 Console.WriteLine(" Your cost is $100");
             else if (Input == "O")
                 Console.WriteLine("Your cost is $225");
-
+            else if (Input == "M")
+                Console.WriteLine("Your cost 310"); 
 
 
         }

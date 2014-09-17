@@ -14,6 +14,10 @@ namespace Chapter_3
             Double HPR; 
             Console.Write("Hourly pay rate: ");
             Input = Console.ReadLine();
+
+            //bool success =  Double.TryParse(Input, out HPR);
+
+
             HPR = Convert.ToDouble(Input);
 
                 if (HPR < 5.65)
